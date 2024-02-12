@@ -73,3 +73,10 @@
     </pluginManagement>
   </build>
 </project>
+ <distributionManagement>
+    <repository>
+        <id>my-nexus-repo</id>
+        <url>https://www.sonatype.com/nexus/repository-oss/maven-releases/</url>
+    </repository>
+</distributionManagement>
+
